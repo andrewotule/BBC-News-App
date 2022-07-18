@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
+        navView.itemIconTintList = null //icon color
         navView.setupWithNavController(navController)
     }
 
